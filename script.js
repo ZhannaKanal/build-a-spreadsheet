@@ -3,4 +3,7 @@
 // when the window has loaded the entire page, including stylesheets and scripts.
 window.onload = () => {
   const container = document.getElementById("container");
-};
+  const createLabel = (name) => {
+
+  }
+}
