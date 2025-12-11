@@ -9,5 +9,6 @@ window.onload = () => {
     label.textContent = name;
     container.appendChild(label);
   }
+  const letters = charRange("A", "J");
 
 }
