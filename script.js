@@ -1,6 +1,5 @@
-//The global window object represents the browser window (or tab). 
-// It has an onload property which allows you to define behavior 
-// when the window has loaded the entire page, including stylesheets and scripts.
+const range = (start, end) => Array();
+
 window.onload = () => {
   const container = document.getElementById("container");
   const createLabel = (name) => {
