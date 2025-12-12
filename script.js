@@ -35,7 +35,8 @@ const applyFunction = (str) => {
   const str2 = infixEval(noHigh, infix);
   const functionCall = /([a-z0-9]*)\(([0-9., ]*)\)(?!.*\()/i; //This expression will look for function calls like sum(1, 4).
   const toNumberList = (args) => args.split(",").map(parseFloat);
-  const apply = (fn, args) => spreadsheetFunctions[fn.toLowerCase()];
+  const apply = (fn, args) =>
+    spreadsheetFunctions[fn.toLowerCase()](toNumberList(args));
 };
 
 const spreadsheetFunctions = {
