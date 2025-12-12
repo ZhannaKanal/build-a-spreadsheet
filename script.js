@@ -29,7 +29,10 @@ const median = (nums) => {
     : sorted[Math.ceil(middle)];
 };
 
-const applyFunction = (str) => {}
+const applyFunction = (str) => {
+  const noHigh = highPrecedence(str);
+
+}
 
 const spreadsheetFunctions = {
   sum,
