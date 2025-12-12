@@ -11,6 +11,7 @@ const highPrecedence = str => {
   const regex = /([\d.]+)([*\/])([\d.]+)/;
   return regex.test(str);
 }
+ console.log(highPrecedence("5*3"))
 
 const isEven = num => num % 2 === 0;
 const sum = nums => nums.reduce((acc, el) => acc + el, 0);
