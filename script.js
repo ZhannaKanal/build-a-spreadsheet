@@ -29,6 +29,8 @@ const median = (nums) => {
     : sorted[Math.ceil(middle)];
 };
 
+const applyFunction = (str) => {}
+
 const spreadsheetFunctions = {
   sum,
   average,
