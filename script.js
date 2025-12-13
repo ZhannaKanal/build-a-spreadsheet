@@ -36,6 +36,8 @@ const spreadsheetFunctions = {
   even: (nums) => nums.filter(isEven),
   firsttwo: (nums) => [nums[0], nums[1]],
   lasttwo: (nums) => [nums[nums.length - 2], nums[nums.length - 1]],
+  has2: (nums) => nums.includes(2),
+  increment: (nums) => nums.map((num) => num + 1),
 };
 
 const applyFunction = (str) => {
