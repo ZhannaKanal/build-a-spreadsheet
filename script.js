@@ -34,6 +34,7 @@ const spreadsheetFunctions = {
   average,
   median,
   even: (nums) => nums.filter(isEven),
+  someeven: nums=> nums.some(isEven),
   firsttwo: (nums) => [nums[0], nums[1]],
   lasttwo: (nums) => [nums[nums.length - 2], nums[nums.length - 1]],
   has2: (nums) => nums.includes(2),
